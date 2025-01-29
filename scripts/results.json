@@ -1,0 +1,1128 @@
+[
+  {
+    "engine_name": "milvus",
+    "setup_name": "milvus-m-16-ef-128",
+    "dataset_name": "dbpedia-openai-100K-1536-angular",
+    "search_idx": "0",
+    "upload_time": 38.46021354200002,
+    "total_upload_time": 95.87439070799974,
+    "p95_time": 0.010666235750159113,
+    "rps": 128.02300167189594,
+    "parallel": 1,
+    "p99_time": 0.023797345080106443,
+    "mean_time": 0.006492921623596067,
+    "mean_precisions": 0.9935799999999999,
+    "engine_params": {
+      "index_params": {
+        "efConstruction": 128,
+        "M": 16
+      },
+      "ef": 128
+    }
+  },
+  {
+    "engine_name": "milvus",
+    "setup_name": "milvus-m-16-ef-128",
+    "dataset_name": "dbpedia-openai-100K-1536-angular",
+    "search_idx": "1",
+    "upload_time": 38.46021354200002,
+    "total_upload_time": 95.87439070799974,
+    "p95_time": 0.01236049970032127,
+    "rps": 105.05952654388568,
+    "parallel": 1,
+    "p99_time": 0.019991572079866304,
+    "mean_time": 0.008109208425598171,
+    "mean_precisions": 0.9975799999999999,
+    "engine_params": {
+      "index_params": {
+        "efConstruction": 128,
+        "M": 16
+      },
+      "ef": 256
+    }
+  },
+  {
+    "engine_name": "milvus",
+    "setup_name": "milvus-m-16-ef-128",
+    "dataset_name": "dbpedia-openai-100K-1536-angular",
+    "search_idx": "2",
+    "upload_time": 38.46021354200002,
+    "total_upload_time": 95.87439070799974,
+    "p95_time": 0.020628708649951477,
+    "rps": 56.29945904817248,
+    "parallel": 1,
+    "p99_time": 0.032853758000273965,
+    "mean_time": 0.015967436986002666,
+    "mean_precisions": 0.99908,
+    "engine_params": {
+      "index_params": {
+        "efConstruction": 128,
+        "M": 16
+      },
+      "ef": 512
+    }
+  },
+  {
+    "engine_name": "milvus",
+    "setup_name": "milvus-m-16-ef-128",
+    "dataset_name": "dbpedia-openai-100K-1536-angular",
+    "search_idx": "3",
+    "upload_time": 38.46021354200002,
+    "total_upload_time": 95.87439070799974,
+    "p95_time": 0.9591945639501319,
+    "rps": 27.09074322869565,
+    "parallel": 100,
+    "p99_time": 2.804204177750212,
+    "mean_time": 0.26447767656919724,
+    "mean_precisions": 0.9819599999999998,
+    "engine_params": {
+      "index_params": {
+        "efConstruction": 128,
+        "M": 16
+      },
+      "ef": 128
+    }
+  },
+  {
+    "engine_name": "milvus",
+    "setup_name": "milvus-m-16-ef-128",
+    "dataset_name": "dbpedia-openai-100K-1536-angular",
+    "search_idx": "4",
+    "upload_time": 38.46021354200002,
+    "total_upload_time": 95.87439070799974,
+    "p95_time": 0.43036200564929517,
+    "rps": 28.681106879254582,
+    "parallel": 100,
+    "p99_time": 0.8958957699997812,
+    "mean_time": 0.13173281896939806,
+    "mean_precisions": 0.9921200000000001,
+    "engine_params": {
+      "index_params": {
+        "efConstruction": 128,
+        "M": 16
+      },
+      "ef": 256
+    }
+  },
+  {
+    "engine_name": "milvus",
+    "setup_name": "milvus-m-16-ef-128",
+    "dataset_name": "dbpedia-openai-100K-1536-angular",
+    "search_idx": "5",
+    "upload_time": 38.46021354200002,
+    "total_upload_time": 95.87439070799974,
+    "p95_time": 1.0702991663496964,
+    "rps": 21.430533944994384,
+    "parallel": 100,
+    "p99_time": 1.535207779260773,
+    "mean_time": 0.4671611718688033,
+    "mean_precisions": 0.9965200000000001,
+    "engine_params": {
+      "index_params": {
+        "efConstruction": 128,
+        "M": 16
+      },
+      "ef": 512
+    }
+  },
+  {
+    "engine_name": "milvus",
+    "setup_name": "milvus-m-16-ef-128",
+    "dataset_name": "glove-100-angular",
+    "search_idx": "0",
+    "upload_time": 78.89938366599381,
+    "total_upload_time": 286.21844245799,
+    "p95_time": 0.005774694056162843,
+    "rps": 263.4306430881397,
+    "parallel": 1,
+    "p99_time": 0.013248951582645543,
+    "mean_time": 0.0036010417846322525,
+    "mean_precisions": 0.826571,
+    "engine_params": {
+      "index_params": {
+        "efConstruction": 128,
+        "M": 16
+      },
+      "ef": 128
+    }
+  },
+  {
+    "engine_name": "milvus",
+    "setup_name": "milvus-m-16-ef-128",
+    "dataset_name": "glove-100-angular",
+    "search_idx": "1",
+    "upload_time": 78.89938366599381,
+    "total_upload_time": 286.21844245799,
+    "p95_time": 0.008372380605578654,
+    "rps": 171.16051315992965,
+    "parallel": 1,
+    "p99_time": 0.01703417491808069,
+    "mean_time": 0.0056050917223969005,
+    "mean_precisions": 0.886849,
+    "engine_params": {
+      "index_params": {
+        "efConstruction": 128,
+        "M": 16
+      },
+      "ef": 256
+    }
+  },
+  {
+    "engine_name": "milvus",
+    "setup_name": "milvus-m-16-ef-128",
+    "dataset_name": "glove-100-angular",
+    "search_idx": "2",
+    "upload_time": 78.89938366599381,
+    "total_upload_time": 286.21844245799,
+    "p95_time": 0.011076445846993008,
+    "rps": 118.8872658382069,
+    "parallel": 1,
+    "p99_time": 0.024037925832235487,
+    "mean_time": 0.008137926315741789,
+    "mean_precisions": 0.934735,
+    "engine_params": {
+      "index_params": {
+        "efConstruction": 128,
+        "M": 16
+      },
+      "ef": 512
+    }
+  },
+  {
+    "engine_name": "milvus",
+    "setup_name": "milvus-m-16-ef-128",
+    "dataset_name": "glove-100-angular",
+    "search_idx": "3",
+    "upload_time": 78.89938366599381,
+    "total_upload_time": 286.21844245799,
+    "p95_time": 0.9882370538412942,
+    "rps": 31.549885092104397,
+    "parallel": 100,
+    "p99_time": 6.440906182836628,
+    "mean_time": 0.5934348831242648,
+    "mean_precisions": 0.829263,
+    "engine_params": {
+      "index_params": {
+        "efConstruction": 128,
+        "M": 16
+      },
+      "ef": 128
+    }
+  },
+  {
+    "engine_name": "milvus",
+    "setup_name": "milvus-m-16-ef-128",
+    "dataset_name": "glove-100-angular",
+    "search_idx": "4",
+    "upload_time": 78.89938366599381,
+    "total_upload_time": 286.21844245799,
+    "p95_time": 0.8990253125011799,
+    "rps": 35.09113759059998,
+    "parallel": 100,
+    "p99_time": 4.537283743743756,
+    "mean_time": 0.48163797267762276,
+    "mean_precisions": 0.888595,
+    "engine_params": {
+      "index_params": {
+        "efConstruction": 128,
+        "M": 16
+      },
+      "ef": 256
+    }
+  },
+  {
+    "engine_name": "milvus",
+    "setup_name": "milvus-m-16-ef-128",
+    "dataset_name": "glove-100-angular",
+    "search_idx": "5",
+    "upload_time": 78.89938366599381,
+    "total_upload_time": 286.21844245799,
+    "p95_time": 1.8221538142504814,
+    "rps": 26.86449771732318,
+    "parallel": 100,
+    "p99_time": 3.0619585638449642,
+    "mean_time": 0.8802480530211134,
+    "mean_precisions": 0.9347369999999999,
+    "engine_params": {
+      "index_params": {
+        "efConstruction": 128,
+        "M": 16
+      },
+      "ef": 512
+    }
+  },
+  {
+    "engine_name": "opensearch",
+    "setup_name": "opensearch-m-16-ef-128",
+    "dataset_name": "glove-100-angular",
+    "search_idx": "0",
+    "upload_time": 512.7670241250007,
+    "total_upload_time": 514.883073125,
+    "p95_time": 0.0720018143010293,
+    "rps": 20.22871084855917,
+    "parallel": 1,
+    "p99_time": 0.12631969491952078,
+    "mean_time": 0.049224280011608695,
+    "mean_precisions": 0.924054,
+    "engine_params": {
+      "method": {
+        "parameters": {
+          "m": 16,
+          "ef_construction": 128
+        }
+      },
+      "knn.algo_param.ef_search": 128
+    }
+  },
+  {
+    "engine_name": "opensearch",
+    "setup_name": "opensearch-m-16-ef-128",
+    "dataset_name": "glove-100-angular",
+    "search_idx": "1",
+    "upload_time": 512.7670241250007,
+    "total_upload_time": 514.883073125,
+    "p95_time": 0.06194375274908452,
+    "rps": 22.929842812566985,
+    "parallel": 1,
+    "p99_time": 0.11422705783010323,
+    "mean_time": 0.04343198342770283,
+    "mean_precisions": 0.882541,
+    "engine_params": {
+      "method": {
+        "parameters": {
+          "m": 16,
+          "ef_construction": 128
+        }
+      },
+      "knn.algo_param.ef_search": 256
+    }
+  },
+  {
+    "engine_name": "opensearch",
+    "setup_name": "opensearch-m-16-ef-128",
+    "dataset_name": "glove-100-angular",
+    "search_idx": "2",
+    "upload_time": 512.7670241250007,
+    "total_upload_time": 514.883073125,
+    "p95_time": 0.04523105829966878,
+    "rps": 28.790144350524617,
+    "parallel": 1,
+    "p99_time": 0.07267951666053707,
+    "mean_time": 0.034564219606604094,
+    "mean_precisions": 0.8382719999999999,
+    "engine_params": {
+      "method": {
+        "parameters": {
+          "m": 16,
+          "ef_construction": 128
+        }
+      },
+      "knn.algo_param.ef_search": 512
+    }
+  },
+  {
+    "engine_name": "opensearch",
+    "setup_name": "opensearch-m-16-ef-128",
+    "dataset_name": "glove-100-angular",
+    "search_idx": "3",
+    "upload_time": 512.7670241250007,
+    "total_upload_time": 514.883073125,
+    "p95_time": 4.084924427699479,
+    "rps": 26.657324018017754,
+    "parallel": 100,
+    "p99_time": 11.734493998250327,
+    "mean_time": 2.449160772157199,
+    "mean_precisions": 0.8382719999999999,
+    "engine_params": {
+      "method": {
+        "parameters": {
+          "m": 16,
+          "ef_construction": 128
+        }
+      },
+      "knn.algo_param.ef_search": 128
+    }
+  },
+  {
+    "engine_name": "opensearch",
+    "setup_name": "opensearch-m-16-ef-128",
+    "dataset_name": "glove-100-angular",
+    "search_idx": "4",
+    "upload_time": 512.7670241250007,
+    "total_upload_time": 514.883073125,
+    "p95_time": 5.395100602698585,
+    "rps": 23.387600683390716,
+    "parallel": 100,
+    "p99_time": 10.729392242578689,
+    "mean_time": 2.818441230771204,
+    "mean_precisions": 0.8382720000000001,
+    "engine_params": {
+      "method": {
+        "parameters": {
+          "m": 16,
+          "ef_construction": 128
+        }
+      },
+      "knn.algo_param.ef_search": 256
+    }
+  },
+  {
+    "engine_name": "opensearch",
+    "setup_name": "opensearch-m-16-ef-128",
+    "dataset_name": "glove-100-angular",
+    "search_idx": "5",
+    "upload_time": 512.7670241250007,
+    "total_upload_time": 514.883073125,
+    "p95_time": 4.565662718749716,
+    "rps": 23.620598048333534,
+    "parallel": 100,
+    "p99_time": 17.01085446158013,
+    "mean_time": 2.896795667480397,
+    "mean_precisions": 0.8382719999999999,
+    "engine_params": {
+      "method": {
+        "parameters": {
+          "m": 16,
+          "ef_construction": 128
+        }
+      },
+      "knn.algo_param.ef_search": 512
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-16-ef-128",
+    "dataset_name": "dbpedia-openai-100K-1536-angular",
+    "search_idx": "0",
+    "upload_time": 37.64732025000012,
+    "total_upload_time": 97.82627691700054,
+    "p95_time": 0.006422391650221474,
+    "rps": 201.41999958055334,
+    "parallel": 1,
+    "p99_time": 0.013994204580303668,
+    "mean_time": 0.0038577632138058105,
+    "mean_precisions": 0.97678,
+    "engine_params": {
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 16,
+        "ef_construct": 128
+      },
+      "hnsw_ef": 64
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-16-ef-128",
+    "dataset_name": "dbpedia-openai-100K-1536-angular",
+    "search_idx": "1",
+    "upload_time": 37.64732025000012,
+    "total_upload_time": 97.82627691700054,
+    "p95_time": 0.004815145200200278,
+    "rps": 202.78960764371791,
+    "parallel": 1,
+    "p99_time": 0.009109000329899643,
+    "mean_time": 0.0039705092056083234,
+    "mean_precisions": 0.9912200000000001,
+    "engine_params": {
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 16,
+        "ef_construct": 128
+      },
+      "hnsw_ef": 128
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-16-ef-128",
+    "dataset_name": "dbpedia-openai-100K-1536-angular",
+    "search_idx": "2",
+    "upload_time": 37.64732025000012,
+    "total_upload_time": 97.82627691700054,
+    "p95_time": 0.006008347250326552,
+    "rps": 164.90730113473472,
+    "parallel": 1,
+    "p99_time": 0.009434110089714547,
+    "mean_time": 0.005022146169996813,
+    "mean_precisions": 0.996,
+    "engine_params": {
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 16,
+        "ef_construct": 128
+      },
+      "hnsw_ef": 256
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-16-ef-128",
+    "dataset_name": "dbpedia-openai-100K-1536-angular",
+    "search_idx": "3",
+    "upload_time": 37.64732025000012,
+    "total_upload_time": 97.82627691700054,
+    "p95_time": 0.008484629450504145,
+    "rps": 121.39768677314606,
+    "parallel": 1,
+    "p99_time": 0.01392284691036366,
+    "mean_time": 0.007065999970798839,
+    "mean_precisions": 0.99854,
+    "engine_params": {
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 16,
+        "ef_construct": 128
+      },
+      "hnsw_ef": 512
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-16-ef-128",
+    "dataset_name": "dbpedia-openai-100K-1536-angular",
+    "search_idx": "4",
+    "upload_time": 37.64732025000012,
+    "total_upload_time": 97.82627691700054,
+    "p95_time": 0.37046240980007566,
+    "rps": 35.3876187195664,
+    "parallel": 100,
+    "p99_time": 4.54489910300043,
+    "mean_time": 0.18311778721359442,
+    "mean_precisions": 0.97678,
+    "engine_params": {
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 16,
+        "ef_construct": 128
+      },
+      "hnsw_ef": 64
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-16-ef-128",
+    "dataset_name": "dbpedia-openai-100K-1536-angular",
+    "search_idx": "5",
+    "upload_time": 37.64732025000012,
+    "total_upload_time": 97.82627691700054,
+    "p95_time": 0.2376723753002807,
+    "rps": 40.59257647974512,
+    "parallel": 100,
+    "p99_time": 1.819324431069519,
+    "mean_time": 0.08600512684418864,
+    "mean_precisions": 0.9912200000000001,
+    "engine_params": {
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 16,
+        "ef_construct": 128
+      },
+      "hnsw_ef": 128
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-16-ef-128",
+    "dataset_name": "dbpedia-openai-100K-1536-angular",
+    "search_idx": "6",
+    "upload_time": 37.64732025000012,
+    "total_upload_time": 97.82627691700054,
+    "p95_time": 0.5890130752997721,
+    "rps": 32.296551057291886,
+    "parallel": 100,
+    "p99_time": 1.6448830297605888,
+    "mean_time": 0.3582334646515983,
+    "mean_precisions": 0.996,
+    "engine_params": {
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 16,
+        "ef_construct": 128
+      },
+      "hnsw_ef": 256
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-16-ef-128",
+    "dataset_name": "dbpedia-openai-100K-1536-angular",
+    "search_idx": "7",
+    "upload_time": 37.64732025000012,
+    "total_upload_time": 97.82627691700054,
+    "p95_time": 4.159925308300444,
+    "rps": 19.3079744221876,
+    "parallel": 100,
+    "p99_time": 9.407919077830396,
+    "mean_time": 2.242650818918398,
+    "mean_precisions": 0.99854,
+    "engine_params": {
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 16,
+        "ef_construct": 128
+      },
+      "hnsw_ef": 512
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-16-ef-128",
+    "dataset_name": "glove-100-angular",
+    "search_idx": "0",
+    "upload_time": 48.45255966599507,
+    "total_upload_time": 258.83464474999346,
+    "p95_time": 0.006269633952615549,
+    "rps": 243.7842873818969,
+    "parallel": 1,
+    "p99_time": 0.008021994410810297,
+    "mean_time": 0.003997967577267263,
+    "mean_precisions": 0.733513,
+    "engine_params": {
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 16,
+        "ef_construct": 128
+      },
+      "hnsw_ef": 64
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-16-ef-128",
+    "dataset_name": "glove-100-angular",
+    "search_idx": "1",
+    "upload_time": 48.45255966599507,
+    "total_upload_time": 258.83464474999346,
+    "p95_time": 0.006379733006178865,
+    "rps": 231.58260275935496,
+    "parallel": 1,
+    "p99_time": 0.00851315583349788,
+    "mean_time": 0.004203005738739739,
+    "mean_precisions": 0.786985,
+    "engine_params": {
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 16,
+        "ef_construct": 128
+      },
+      "hnsw_ef": 128
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-16-ef-128",
+    "dataset_name": "glove-100-angular",
+    "search_idx": "2",
+    "upload_time": 48.45255966599507,
+    "total_upload_time": 258.83464474999346,
+    "p95_time": 0.006200929800252191,
+    "rps": 222.35971073476506,
+    "parallel": 1,
+    "p99_time": 0.010811221250041858,
+    "mean_time": 0.004380926653255301,
+    "mean_precisions": 0.853075,
+    "engine_params": {
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 16,
+        "ef_construct": 128
+      },
+      "hnsw_ef": 256
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-16-ef-128",
+    "dataset_name": "glove-100-angular",
+    "search_idx": "3",
+    "upload_time": 48.45255966599507,
+    "total_upload_time": 258.83464474999346,
+    "p95_time": 0.00700002289668191,
+    "rps": 192.6759937035137,
+    "parallel": 1,
+    "p99_time": 0.010283625582524112,
+    "mean_time": 0.005076426430311403,
+    "mean_precisions": 0.9058219999999999,
+    "engine_params": {
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 16,
+        "ef_construct": 128
+      },
+      "hnsw_ef": 512
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-16-ef-128",
+    "dataset_name": "glove-100-angular",
+    "search_idx": "4",
+    "upload_time": 48.45255966599507,
+    "total_upload_time": 258.83464474999346,
+    "p95_time": 0.8556755541459999,
+    "rps": 37.77618834150387,
+    "parallel": 100,
+    "p99_time": 3.217773254173823,
+    "mean_time": 0.32907485875596176,
+    "mean_precisions": 0.733513,
+    "engine_params": {
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 16,
+        "ef_construct": 128
+      },
+      "hnsw_ef": 64
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-16-ef-128",
+    "dataset_name": "glove-100-angular",
+    "search_idx": "5",
+    "upload_time": 48.45255966599507,
+    "total_upload_time": 258.83464474999346,
+    "p95_time": 1.0684538083565709,
+    "rps": 33.455236455144124,
+    "parallel": 100,
+    "p99_time": 3.2359865165756494,
+    "mean_time": 0.40456285912467865,
+    "mean_precisions": 0.786985,
+    "engine_params": {
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 16,
+        "ef_construct": 128
+      },
+      "hnsw_ef": 128
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-16-ef-128",
+    "dataset_name": "glove-100-angular",
+    "search_idx": "6",
+    "upload_time": 48.45255966599507,
+    "total_upload_time": 258.83464474999346,
+    "p95_time": 0.8769451399050012,
+    "rps": 42.16675548478546,
+    "parallel": 100,
+    "p99_time": 2.9665876635062163,
+    "mean_time": 0.43583337269459005,
+    "mean_precisions": 0.853075,
+    "engine_params": {
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 16,
+        "ef_construct": 128
+      },
+      "hnsw_ef": 256
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-16-ef-128",
+    "dataset_name": "glove-100-angular",
+    "search_idx": "7",
+    "upload_time": 48.45255966599507,
+    "total_upload_time": 258.83464474999346,
+    "p95_time": 0.9142569339441251,
+    "rps": 42.42333628219474,
+    "parallel": 100,
+    "p99_time": 1.89356501240895,
+    "mean_time": 0.4790367309397698,
+    "mean_precisions": 0.9058219999999999,
+    "engine_params": {
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 16,
+        "ef_construct": 128
+      },
+      "hnsw_ef": 512
+    }
+  },
+  {
+    "engine_name": "weaviate",
+    "setup_name": "weaviate-m-16-ef-128",
+    "dataset_name": "dbpedia-openai-100K-1536-angular",
+    "search_idx": "0",
+    "upload_time": 55.530756457999814,
+    "total_upload_time": 55.53081745799864,
+    "p95_time": 0.0034761711512146577,
+    "rps": 298.9901979801024,
+    "parallel": 1,
+    "p99_time": 0.004632861501304433,
+    "mean_time": 0.002585638997407659,
+    "mean_precisions": 0.9545,
+    "engine_params": {
+      "batch_size": 1024,
+      "vectorIndexConfig": {
+        "efConstruction": 128,
+        "maxConnections": 16
+      },
+      "ef": 64
+    }
+  },
+  {
+    "engine_name": "weaviate",
+    "setup_name": "weaviate-m-16-ef-128",
+    "dataset_name": "dbpedia-openai-100K-1536-angular",
+    "search_idx": "1",
+    "upload_time": 55.530756457999814,
+    "total_upload_time": 55.53081745799864,
+    "p95_time": 0.003890461050104932,
+    "rps": 255.35166388710724,
+    "parallel": 1,
+    "p99_time": 0.004532667330113329,
+    "mean_time": 0.0031277465898005177,
+    "mean_precisions": 0.98046,
+    "engine_params": {
+      "batch_size": 1024,
+      "vectorIndexConfig": {
+        "efConstruction": 128,
+        "maxConnections": 16
+      },
+      "ef": 128
+    }
+  },
+  {
+    "engine_name": "weaviate",
+    "setup_name": "weaviate-m-16-ef-128",
+    "dataset_name": "dbpedia-openai-100K-1536-angular",
+    "search_idx": "2",
+    "upload_time": 55.530756457999814,
+    "total_upload_time": 55.53081745799864,
+    "p95_time": 0.00542120419904677,
+    "rps": 188.26549633303617,
+    "parallel": 1,
+    "p99_time": 0.006287927590801708,
+    "mean_time": 0.004410356337395933,
+    "mean_precisions": 0.9922799999999999,
+    "engine_params": {
+      "batch_size": 1024,
+      "vectorIndexConfig": {
+        "efConstruction": 128,
+        "maxConnections": 16
+      },
+      "ef": 256
+    }
+  },
+  {
+    "engine_name": "weaviate",
+    "setup_name": "weaviate-m-16-ef-128",
+    "dataset_name": "dbpedia-openai-100K-1536-angular",
+    "search_idx": "3",
+    "upload_time": 55.530756457999814,
+    "total_upload_time": 55.53081745799864,
+    "p95_time": 0.007693596499757405,
+    "rps": 133.98729031417278,
+    "parallel": 1,
+    "p99_time": 0.008632673238898861,
+    "mean_time": 0.006349637752397757,
+    "mean_precisions": 0.9964,
+    "engine_params": {
+      "batch_size": 1024,
+      "vectorIndexConfig": {
+        "efConstruction": 128,
+        "maxConnections": 16
+      },
+      "ef": 512
+    }
+  },
+  {
+    "engine_name": "weaviate",
+    "setup_name": "weaviate-m-16-ef-128",
+    "dataset_name": "dbpedia-openai-100K-1536-angular",
+    "search_idx": "4",
+    "upload_time": 55.530756457999814,
+    "total_upload_time": 55.53081745799864,
+    "p95_time": 0.10590721699982185,
+    "rps": 286.0836544509003,
+    "parallel": 100,
+    "p99_time": 0.28874444658047727,
+    "mean_time": 0.031920806014000845,
+    "mean_precisions": 0.9545,
+    "engine_params": {
+      "batch_size": 1024,
+      "vectorIndexConfig": {
+        "efConstruction": 128,
+        "maxConnections": 16
+      },
+      "ef": 64
+    }
+  },
+  {
+    "engine_name": "weaviate",
+    "setup_name": "weaviate-m-16-ef-128",
+    "dataset_name": "dbpedia-openai-100K-1536-angular",
+    "search_idx": "5",
+    "upload_time": 55.530756457999814,
+    "total_upload_time": 55.53081745799864,
+    "p95_time": 0.20189912674995866,
+    "rps": 204.0257871892741,
+    "parallel": 100,
+    "p99_time": 0.35714644332945694,
+    "mean_time": 0.07886417880360204,
+    "mean_precisions": 0.9804600000000002,
+    "engine_params": {
+      "batch_size": 1024,
+      "vectorIndexConfig": {
+        "efConstruction": 128,
+        "maxConnections": 16
+      },
+      "ef": 128
+    }
+  },
+  {
+    "engine_name": "weaviate",
+    "setup_name": "weaviate-m-16-ef-128",
+    "dataset_name": "dbpedia-openai-100K-1536-angular",
+    "search_idx": "6",
+    "upload_time": 55.530756457999814,
+    "total_upload_time": 55.53081745799864,
+    "p95_time": 0.35911804730067165,
+    "rps": 177.05603207703064,
+    "parallel": 100,
+    "p99_time": 0.5332370060703218,
+    "mean_time": 0.19145180214900648,
+    "mean_precisions": 0.9922799999999999,
+    "engine_params": {
+      "batch_size": 1024,
+      "vectorIndexConfig": {
+        "efConstruction": 128,
+        "maxConnections": 16
+      },
+      "ef": 256
+    }
+  },
+  {
+    "engine_name": "weaviate",
+    "setup_name": "weaviate-m-16-ef-128",
+    "dataset_name": "dbpedia-openai-100K-1536-angular",
+    "search_idx": "7",
+    "upload_time": 55.530756457999814,
+    "total_upload_time": 55.53081745799864,
+    "p95_time": 0.6405889476008272,
+    "rps": 149.47969760681002,
+    "parallel": 100,
+    "p99_time": 0.9157126425902973,
+    "mean_time": 0.33907495968661716,
+    "mean_precisions": 0.9964,
+    "engine_params": {
+      "batch_size": 1024,
+      "vectorIndexConfig": {
+        "efConstruction": 128,
+        "maxConnections": 16
+      },
+      "ef": 512
+    }
+  },
+  {
+    "engine_name": "weaviate",
+    "setup_name": "weaviate-m-16-ef-128",
+    "dataset_name": "glove-100-angular",
+    "search_idx": "0",
+    "upload_time": 636.3206043749997,
+    "total_upload_time": 636.3207889999994,
+    "p95_time": 0.008947139900647015,
+    "rps": 171.7297032648545,
+    "parallel": 1,
+    "p99_time": 0.012846427080403391,
+    "mean_time": 0.00566046522489014,
+    "mean_precisions": 0.679111,
+    "engine_params": {
+      "batch_size": 1024,
+      "vectorIndexConfig": {
+        "efConstruction": 128,
+        "maxConnections": 16
+      },
+      "ef": 64
+    }
+  },
+  {
+    "engine_name": "weaviate",
+    "setup_name": "weaviate-m-16-ef-128",
+    "dataset_name": "glove-100-angular",
+    "search_idx": "1",
+    "upload_time": 636.3206043749997,
+    "total_upload_time": 636.3207889999994,
+    "p95_time": 0.008783254448917432,
+    "rps": 168.47411701288533,
+    "parallel": 1,
+    "p99_time": 0.011823807001437672,
+    "mean_time": 0.005772511961405871,
+    "mean_precisions": 0.712304,
+    "engine_params": {
+      "batch_size": 1024,
+      "vectorIndexConfig": {
+        "efConstruction": 128,
+        "maxConnections": 16
+      },
+      "ef": 128
+    }
+  },
+  {
+    "engine_name": "weaviate",
+    "setup_name": "weaviate-m-16-ef-128",
+    "dataset_name": "glove-100-angular",
+    "search_idx": "2",
+    "upload_time": 636.3206043749997,
+    "total_upload_time": 636.3207889999994,
+    "p95_time": 0.010616802049844408,
+    "rps": 133.98302139514698,
+    "parallel": 1,
+    "p99_time": 0.013578837409750131,
+    "mean_time": 0.007276178124390753,
+    "mean_precisions": 0.790899,
+    "engine_params": {
+      "batch_size": 1024,
+      "vectorIndexConfig": {
+        "efConstruction": 128,
+        "maxConnections": 16
+      },
+      "ef": 256
+    }
+  },
+  {
+    "engine_name": "weaviate",
+    "setup_name": "weaviate-m-16-ef-128",
+    "dataset_name": "glove-100-angular",
+    "search_idx": "3",
+    "upload_time": 636.3206043749997,
+    "total_upload_time": 636.3207889999994,
+    "p95_time": 0.014211133298886125,
+    "rps": 95.53185877449376,
+    "parallel": 1,
+    "p99_time": 0.02408705916928742,
+    "mean_time": 0.010265299571406832,
+    "mean_precisions": 0.854554,
+    "engine_params": {
+      "batch_size": 1024,
+      "vectorIndexConfig": {
+        "efConstruction": 128,
+        "maxConnections": 16
+      },
+      "ef": 512
+    }
+  },
+  {
+    "engine_name": "weaviate",
+    "setup_name": "weaviate-m-16-ef-128",
+    "dataset_name": "glove-100-angular",
+    "search_idx": "4",
+    "upload_time": 636.3206043749997,
+    "total_upload_time": 636.3207889999994,
+    "p95_time": 5.8100455205014425,
+    "rps": 21.675512785155938,
+    "parallel": 100,
+    "p99_time": 7.466401851750581,
+    "mean_time": 2.965106081898602,
+    "mean_precisions": 0.679111,
+    "engine_params": {
+      "batch_size": 1024,
+      "vectorIndexConfig": {
+        "efConstruction": 128,
+        "maxConnections": 16
+      },
+      "ef": 64
+    }
+  },
+  {
+    "engine_name": "weaviate",
+    "setup_name": "weaviate-m-16-ef-128",
+    "dataset_name": "glove-100-angular",
+    "search_idx": "5",
+    "upload_time": 636.3206043749997,
+    "total_upload_time": 636.3207889999994,
+    "p95_time": 1.8825880701994717,
+    "rps": 55.88149943218602,
+    "parallel": 100,
+    "p99_time": 3.766344761419848,
+    "mean_time": 0.5992218269124902,
+    "mean_precisions": 0.712304,
+    "engine_params": {
+      "batch_size": 1024,
+      "vectorIndexConfig": {
+        "efConstruction": 128,
+        "maxConnections": 16
+      },
+      "ef": 128
+    }
+  },
+  {
+    "engine_name": "weaviate",
+    "setup_name": "weaviate-m-16-ef-128",
+    "dataset_name": "glove-100-angular",
+    "search_idx": "6",
+    "upload_time": 636.3206043749997,
+    "total_upload_time": 636.3207889999994,
+    "p95_time": 1.9119994889499137,
+    "rps": 89.48202266345248,
+    "parallel": 100,
+    "p99_time": 2.56949400374946,
+    "mean_time": 0.8297556936728102,
+    "mean_precisions": 0.790899,
+    "engine_params": {
+      "batch_size": 1024,
+      "vectorIndexConfig": {
+        "efConstruction": 128,
+        "maxConnections": 16
+      },
+      "ef": 256
+    }
+  },
+  {
+    "engine_name": "weaviate",
+    "setup_name": "weaviate-m-16-ef-128",
+    "dataset_name": "glove-100-angular",
+    "search_idx": "7",
+    "upload_time": 636.3206043749997,
+    "total_upload_time": 636.3207889999994,
+    "p95_time": 2.754795552099672,
+    "rps": 69.22511190850203,
+    "parallel": 100,
+    "p99_time": 4.111810115000682,
+    "mean_time": 1.1108237812944095,
+    "mean_precisions": 0.854554,
+    "engine_params": {
+      "batch_size": 1024,
+      "vectorIndexConfig": {
+        "efConstruction": 128,
+        "maxConnections": 16
+      },
+      "ef": 512
+    }
+  }
+]
